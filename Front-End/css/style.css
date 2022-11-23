@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+header{
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    background-color: #850000;
+}
+
+.home{
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 10px;
+    height: 20px;
+}
+
+.pages-container{
+    padding-top: 30px;
+    padding-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 16px;
+    display:flex;
+    justify-content: end;
+    color: #ffff;
+    font-size: 18px;
+    
+}
+
+.pages-container a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 60px;
+    align-items: center;
+}
+
