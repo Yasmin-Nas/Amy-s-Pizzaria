@@ -8,15 +8,24 @@ main{
 }
 
 .div-home{
-    background-image: url(../img/pizzaria\ -\ home.jpeg);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,#000, #000E 30%, #000A 50%, #0000),
+                url(../img/pizzaria\ -\ home.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
+    display: flex;
+    background-image: url();
 }
 
 .titulo-container{
-    padding-top: 400px;
-    padding-left: 50px;
+    padding-top: 15rem;
+    padding-left: 5rem;
     position: absolute;
     color: #CA3C27;
-    font-size: 50px;
+    font-size: 4vh;
 }
 
 .titulo-container span{
@@ -31,9 +40,9 @@ main{
 
 .button-promocoes{
     position: absolute;
-    width: 301px;
-    height: 128px;
-    font-size: 24px;
+    width: 22vh;
+    height: 10vh;
+    font-size: 1.5rem;
     background-color: #850000;
     color: #ffff;
     border-radius: 20px;
@@ -42,6 +51,7 @@ main{
 }
 
 section{
+    position: static;
     height: 100vh;
     width: 100%;
 }
@@ -52,7 +62,8 @@ section{
 }
 
 .title-promoções{
-    margin-top: 70px;
+    padding-top: 2rem;
+    margin-top: 5rem;
 }
  
 .Promoções-container{
@@ -84,7 +95,7 @@ section{
 
 .whatsaap{
     background-color: #D0311C;
-    padding: 20px;
+    padding: 2vh;
     border-radius: 20px;
    
 }
@@ -126,9 +137,10 @@ fieldset{
     align-items: center;
     justify-content: center;
     background-color: #850000;
+    background-position: center;
     height: 60vh; 
     width: 50vw;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     color: #ffff;
     padding: 40px;

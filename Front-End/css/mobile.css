@@ -1,0 +1,27 @@
+.button-header{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: #ffff;
+    font-size: 50px;
+    right: 10px;
+    display: none;
+}
+
+ @media( max-width: 700px){
+     nav, ul{
+         flex-direction: column;
+         align-items: unset;
+     }
+     ul{
+         text-align: center;
+     }
+     nav{
+         padding-top: 20px;
+     }
+     header{
+        padding: 1rem,2rem;
+     }
+ }
+ 
+

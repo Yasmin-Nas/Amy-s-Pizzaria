@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html{
-    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -15,9 +12,16 @@ body {
 
 header{
     position: fixed;
-    height: 120px;
+    height: 9vh;
     width: 100%;
     background-color: #850000;
+}
+
+.icons-container i{
+    display: flex;
+    padding-right:20vh;
+    font-size: 3vh;
+    color: #ffff;
 }
 
 .home{
@@ -33,7 +37,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     gap: 16px;
     display:flex;
-    justify-content: end;
+    justify-content: center;
     color: #ffff;
     font-size: 18px;
     
@@ -46,4 +50,3 @@ header{
     padding-right: 60px;
     align-items: center;
 }
-
