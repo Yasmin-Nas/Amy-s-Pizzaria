@@ -7,23 +7,18 @@ main{
     color: #850000;
 }
 
-.div-home{
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(90deg,#000, #000E 30%, #000A 50%, #0000),
-                url(../img/pizzaria\ -\ home.jpeg);
-    background-repeat:no-repeat;
+.home-container{
+    background: url(../img/pizzaria\ -\ home.jpeg);
     background-size: cover;
-    background-position: right;
-    background-blend-mode: darken;
-    display: flex;
-    background-image: url();
+    background-repeat: no-repeat;
+
+    z-index: -1;
 }
 
 .titulo-container{
     padding-top: 15rem;
     padding-left: 5rem;
-    position: absolute;
+    z-index: 1;
     color: #CA3C27;
     font-size: 4vh;
 }
@@ -33,19 +28,22 @@ main{
 }
 
 .button-one{
-    position: absolute;
-    padding-left: 150vh;
-    padding-top: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-top: 50vh;
+    padding-right: 10vh;
+  
 }
 
 .button-promocoes{
-    position: absolute;
+    z-index: 1;
     width: 22vh;
     height: 10vh;
     font-size: 1.5rem;
     background-color: #850000;
     color: #ffff;
-    border-radius: 20px;
+    border-radius: 5vh;
     border-color: #850000;
     
 }
@@ -63,40 +61,42 @@ section{
 
 .title-promoções{
     padding-top: 2rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
  
 .Promoções-container{
     background-color: #FFEDCE;
-    padding: 60px;
+
     text-align: center;
-    font-size: 50px;
+    font-size: 5vh;
 }
 
 .title-cardápio{
-    margin-top: 90px;
+    margin-top: 10rem;
 }
 
 
 .Cardápio-container{
     background-color: #FFEDCE;
-    padding: 60px;
     text-align: center;
-    font-size: 50px;
+    font-size: 5vh;
+}
+
+.title-serviços{
+     margin-top: 10rem;
 }
 
 .Serviços-container{
     background-color: #FFEDCE;
-    padding: 60px;
     text-align: center;
-    font-size: 50px;
+    font-size: 5vh;
 
 }
 
 .whatsaap{
     background-color: #D0311C;
     padding: 2vh;
-    border-radius: 20px;
+    border-radius: 20vh;
    
 }
 
@@ -104,18 +104,13 @@ section{
     display: flex;
     flex-direction: column;
     background-color: #FFEDCE;
-    padding: 60px;
     text-align: center;
-    font-size: 50px;
+    font-size: 5vh;
     align-items: center;
 }
 
-.title-serviços{
-    margin-top: 70px;
-}
-
 .servicos-container{
-    padding-top: 20vh;
+    padding-top: 20rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,11 +119,11 @@ section{
 
 
 fieldset{
-    border: 0;
+    border: 5vh;
 }
 
 .title-contatos{
-    margin-top: 70px;
+    margin-top: 10rem;
 }
 
 .info-container{
@@ -141,12 +136,9 @@ fieldset{
     height: 60vh; 
     width: 50vw;
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
     color: #ffff;
-    padding: 40px;
-    border-radius: 20px;
-    margin: 0;
-    font-size: 30px;
+    border-radius: 5vh;
+    font-size: 2rem;
     
 }
 
@@ -164,21 +156,20 @@ fieldset{
 }
 
 input,select{
-    border-radius: 5px;
+    border-radius: 5vh;
 }
 
  label{
-    height: 50px;
-    width: 40px;
-    padding-top: 10px;
+    height: 5vh;
+    width: 4vh;
 }
 
 input{
-    height: 60px;
-    width: 300px;
-    border-radius: 20px;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 5vh;
     align-items: center;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .call-container{

@@ -25,21 +25,20 @@ header{
 }
 
 .home{
-    padding-top: 10px;
-    padding-left: 50px;
-    width: 10px;
-    height: 20px;
+    padding-top: 1.5vh;
+    padding-left: 10vh;
+    height: 2vh;
 }
 
 .pages-container{
-    padding-top: 30px;
-    padding-right: 20px;
+    padding-top: 2vh;
+    padding-right: 10vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    gap: 16px;
+    gap: 5vh;
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
     color: #ffff;
-    font-size: 18px;
+    font-size: 1.5vh;
     
 }
 
@@ -47,6 +46,18 @@ header{
     color: white;
     display: flex;
     justify-content: flex-start;
-    padding-right: 60px;
     align-items: center;
+}
+
+.mobile-icon-menu{
+    display: none;
+    width: 2vh;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.open{
+    display: block;
 }
