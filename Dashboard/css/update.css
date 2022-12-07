@@ -50,7 +50,7 @@ main{
     padding-top: 10vh;
     background-color: #850000;
     width: 80vh;
-    height: 120vh;
+    height: 150vh;
     color: #ffff;
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -85,13 +85,13 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    padding-top: 2vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
     width: 60vh;
-    height: 20vh;
-    margin-left: 10vh;
-    margin-top: 2vh;
-    padding-left: 5vh;
+    height: 30vh;
 }
 
 .title-promo{ 
@@ -121,15 +121,19 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding-left: 5vh;
+    padding-top: 2vh;
     margin-left: 10vh;
     margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
     width: 60vh;
-    height: 20vh;
+    height: 30vh;
    
-}     
+}  
+
+input{
+    background-color: transparent;
+}
 
 .title-new-drink{
     display: flex;
@@ -143,13 +147,13 @@ main{
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding-left: 5vh;
+    padding-top: 2vh;
     margin-left: 10vh;
     margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
     width: 60vh;
-    height: 20vh;
+    height: 30vh;
     
 }
 
