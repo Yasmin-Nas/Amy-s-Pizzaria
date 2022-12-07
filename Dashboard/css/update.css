@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+body{
+    background-color: #FFEDCE;;
+}
+
+header{
+    height: 9vh;
+    width: 100%;
+    background-color: #850000;
+    position: fixed;
+}
+
+.home{
+    margin-top: 1vh;
+    margin-left: 3vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-one{
+    display: flex;
+    justify-content: center;
+}
+
+.title-updates{
+    padding-top: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: #850000;
+}
+
+.updates{
+    margin-top: 6vh;
+    padding-top: 10vh;
+    background-color: #850000;
+    width: 80vh;
+    height: 120vh;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-image: url(../photos/pizza-border.png);
+    background-repeat: no-repeat;
+    background-size: 6vh;
+}
+
+.updates input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vh;
+    width: 75vh;
+    height: 5vh;
+    margin-left: 10vh;
+    margin: 2vh;
+    font-size: 3vh;
+    color: #850000;
+}
+
+
+.updates label{
+    display: flex;
+    text-align: start;
+    margin-left: 2vh;
+}
+
+
+.update-promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #ffff;
+    color: #850000;
+    width: 60vh;
+    height: 20vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
+    padding-left: 5vh;
+}
+
+.title-promo{ 
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10vh;
+}
+
+.button-food{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+  
+}
+
+.title-new-pizza{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+
+.update-new-pizza{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
+    background-color: #ffff;
+    color: #850000;
+    width: 60vh;
+    height: 20vh;
+   
+}     
+
+.title-new-drink{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5vh;
+    padding-left: 10vh;
+}
+
+.update-new-drink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5vh;
+    margin-left: 10vh;
+    margin-top: 2vh;
+    background-color: #ffff;
+    color: #850000;
+    width: 60vh;
+    height: 20vh;
+    
+}
+
+.button-save{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
