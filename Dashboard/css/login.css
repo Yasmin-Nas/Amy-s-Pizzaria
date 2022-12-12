@@ -26,6 +26,11 @@ header{
     
 }
 
+.pizza-header{
+    width: 8vh;
+    height: 8vh;
+}
+
 main{
     display: flex;
     align-items: center;
@@ -86,6 +91,7 @@ main{
 
 .enter{
     color: #ffff;
+    background-color: transparent;
     font-size: 2.2rem;
     display: flex;
     text-align: end;

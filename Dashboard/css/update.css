@@ -21,8 +21,13 @@ header{
 }
 
 .home{
-    margin-top: 1vh;
-    margin-left: 3vh;
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+
+.pizza-header{
+    width: 8vh;
+    height: 8vh;
 }
 
 main{
@@ -32,6 +37,7 @@ main{
     text-align: center;
     font-weight: bold;
 }
+
 
 .title-one{
     display: flex;
@@ -50,7 +56,7 @@ main{
     padding-top: 10vh;
     background-color: #850000;
     width: 80vh;
-    height: 150vh;
+    height: 168vh;
     color: #ffff;
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -86,18 +92,17 @@ main{
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 2vh;
-    margin-left: 10vh;
     margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
-    width: 60vh;
-    height: 30vh;
+   
 }
 
 .title-promo{ 
     display: flex;
-    align-items: flex-start;
-    padding-left: 10vh;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .button-food{
@@ -105,15 +110,24 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10px;
   
+}
+
+.Pizza{
+    width: 15vh;
+    height: 5vh;
+}
+
+.Bebida{
+    width: 15vh;
+    height: 5vh;
 }
 
 .title-new-pizza{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     padding-top: 5vh;
-    padding-left: 10vh;
 }
 
 .update-new-pizza{
@@ -122,24 +136,24 @@ main{
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 2vh;
-    margin-left: 10vh;
     margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
-    width: 60vh;
-    height: 30vh;
    
 }  
 
 input{
     background-color: transparent;
+    width: 10vh;
+    height: 5vh;
 }
 
 .title-new-drink{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     padding-top: 5vh;
-    padding-left: 10vh;
+    
 }
 
 .update-new-drink{
@@ -148,12 +162,9 @@ input{
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 2vh;
-    margin-left: 10vh;
     margin-top: 2vh;
     background-color: #ffff;
     color: #850000;
-    width: 60vh;
-    height: 30vh;
     
 }
 
@@ -163,4 +174,9 @@ input{
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+}
+
+.salvar-button{
+   width: 18vh;
+   height: 5vh;
 }

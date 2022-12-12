@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../login.js" defer type="module"></script>
     <title>Administrador</title>
 </head>
 <body>
     <header>
         <div class="home">
-            <img src="../photos/header.png" alt="amy's-logo"></img>
+            <img class="pizza-header" src="../photos/header.png" alt="amy's-logo"></img>
         </div>
     </header>
     <main>
@@ -19,22 +20,19 @@
             <h2>Logar como Administrador:</h2>
             <div class="login">
             <div class="user-login">
-                <label>Login</label>   
-                <input type="text" nome=" " required>  
+                <label for="login"> Login</label>   
+                <input type="text" required placeholder="Login" id="user" class="acesso-input">  
             </div>
             <div class="user-login">
-                <label>Senha</label>      
-                <input type="password" nome=" " required>  
-                <!-- <div id="icon"></div> -->
+                <label for= "senha"> Senha</label>      
+                <input type="password" required placeholder="Senha" id="password" class="senha-input">  
             </div>
-            <a href="../index/update.html" class="enter">
-                <span></span>
-                Entrar
-            </a>
+            <div class="button-enter">
+            <a href="../index/update.html"><button type="submit" id="buttom-sent" class="enter" style="height:4vh, widht">Entrar</button></a>
+        </div>
         </div>
         </form>
     </main>
-    <script src="../login.js"></script>
 
 </body>
 </html>

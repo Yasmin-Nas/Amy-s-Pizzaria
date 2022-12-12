@@ -17,6 +17,11 @@ header{
     background-color: #850000;
 }
 
+.pizza-header{
+    width: 8vh;
+    height: 8vh;
+}
+
 .icons-container i{
     display: flex;
     padding-right:20vh;
