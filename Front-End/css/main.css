@@ -80,6 +80,75 @@ section{
     font-size: 5vh;
 }
 
+.card-cardapio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-cardapio1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-calabresa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 2vh;
+    background-color: #850000;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.card-mussarela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 2vh;
+    background-color: #850000;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.card-frango{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 2vh;
+    background-color: #850000;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.card-morango{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 2vh;
+    background-color: #850000;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.img-pizza1{
+    width: 25vh;
+    height: 20vh;
+    padding-top: 2vh;
+}
+
 .title-serviços{
      margin-top: 10rem;
 }
