@@ -1,6 +1,5 @@
 # Amy-s-Pizzaria
-# cards.text
- 
+
  <h1>Projeto<h1>
 <h2>O objetivo do projeto é fazer a criação de um site que corresponde a uma pizzaria, deve seguir os padrões de desenvolvimento web. </h2>
 
