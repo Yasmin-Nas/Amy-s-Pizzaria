@@ -13,7 +13,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <title>AMY'S</title>
+    <script src="../Front-End/app.js" defer></script>
+    <script src="../Front-End/js/doces.js" defer type="js" ></script>
+    <script src="../Front-End/json/doces.json"></script>
+    <script src="../Front-End/js/favoritas.js" defer type="js" ></script>
+    <script src="../Front-End/json/favoritas.json"></script>
+    <script src="../Front-End/json/cards-promo.json" defer type="json" ></script>
+    <script src="../Front-End/js/promo.js"  defer type="js"></script>
+    <link rel="stylesheet" href="../Front-End/css/promocoes.css">
+    <script src="../Front-End/js/doces.js"  defer type="js"></script>
+    <script src="../Front-End/json/doces.json"  defer type="json"></script>
+    <link rel="stylesheet" href="../Front-End/css/doces.css">
+    <script src="../Front-End/js/ingredientes.js"  defer type="js"></script>
+    <script src="../Front-End/json/ingredientes.json"  defer type="json"></script>
+    <link rel="stylesheet" href="../Front-End/css/ingredientes.css">
+
+    <title>Amy's</title>
 </head>
 <body>
     <header>
@@ -31,7 +46,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="tela-principal">
             <section class="home-container" id="home">
                 <div class="titulo-container">
                     <h2>Amy's Pizzaria</h2>
@@ -44,56 +59,28 @@
                     <a href="#Promoções"><button class="button-promocoes">Clique aqui para conferir nossas promoções</button></a>
                 </p>
                 </div>
-        
             </section>
 
-            <section class="Promoções-container" id="Promoções">
+        <section class="Promoções-container" id="Promoções">
             <div>
                 <h2 class="title-promoções">Promoções</h2>
             </div>
-            </section>
+        </section>
 
             <section class="Cardápio-container" id="Cardápio">
                 <div>
                 <h2 class="title-cardápio">Cardápio</h2>
-            </div>
-            <div class="card-cardapio">
-                <div class="card-calabresa">
-                <img class="img-pizza1" src="../Front-End/img/calabresa.png" alt="calaresa"/>
-
-                <h3 class="pizza-1">Calabresa</h3> 
-                <span class="ingredientes-1">Calabresa, cebola e azeitonas roxas</span>
-                <h4 class="valor-1">R$42,90</h4>
-                
-            </div>
-            <div class="card-mussarela">
-                <img class="img-pizza1" src="../Front-End/img/mussarela.png" alt="catupiry"/>
-
-                <h3 class="pizza-1">Mussarela</h3> 
-                <span class="ingredientes-1">Calabresa, cebola e azeitonas roxas</span>
-                <h4 class="valor-1">R$42,90</h4>
-                
-            </div>
-        </div>
-        <div class="card-cardapio">
-            <div class="card-frango">
-                <img class="img-pizza1" src="../Front-End/img/catupiry.png" alt="frango"/>
-
-                <h3 class="pizza-1">Frango com catupiry</h3> 
-                <span class="ingredientes-1">Frango desfiado coberto com catupiry</span>
-                <h4 class="valor-1">R$45,90</h4>
-                
-            </div>
-            <div class="card-morango">
-                <img class="img-pizza1" src="../Front-End/img/morango.png" alt="morango"/>
-
-                <h3 class="pizza-1">Morango com chocolate</h3> 
-                <span class="ingredientes-1">Chocolate coberto com morango</span>
-                <h4 class="valor-1">R$48,80</h4>
-                
-            </div>
+                <section class="conteudos">
+                    <article class='card'>
+                        
+                        <h2 id='nome' class='nome'>Nome</h2>
+                        <h3 id='descricao' class='descricao'>descricao</h3>
+                        
+                    </article>
+                </section>
+            
             </section>
-
+    
             <section class="Serviços-container" id="Serviços">
                 <div>
                 <h2 class="title-serviços">Confira nossas opções de delivery</h2>
@@ -104,10 +91,9 @@
                     <img class="whatsaap" src="../Front-End/img/Whats.png" alt="Whatsapp"></img>
                 </div>
             </div>
-            </section>
-
-           <section class="Contatos-container" id="Contatos">
-               <div>
+        </section>
+        <section class="Contatos-container" id="Contatos">
+            <div>
                 <h2 class="title-contatos">Fale conosco</h2>
             </div>
                 <div class="info-container">
@@ -146,10 +132,10 @@
                     </fieldset>
                 </form>
             </div>
-                    <div class="button-two">
-                        <a href=''><button class="button-info">Enviar</button></a>
-                    </div>
-            </section>
+            <div class="button-two">
+                <a href=''><button class="button-info">Enviar</button></a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -180,6 +166,5 @@
         </div>
     </div>
     </footer>
-    <script src="../app.js"></script>
 </body>
 </html>

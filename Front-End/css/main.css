@@ -78,6 +78,8 @@ section{
     background-color: #FFEDCE;
     text-align: center;
     font-size: 5vh;
+    width: 100%;
+    height: 100%;
 }
 
 .card-cardapio{
@@ -92,55 +94,129 @@ section{
     align-items: center;
 }
 
-.card-calabresa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 2vh;
-    background-color: #850000;
-    font-size: 1.5rem;
-    color: #ffff;
+
+/* Titulo h2 */
+.nome {
+    font-size: 1.4rem;
 }
 
-.card-mussarela{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5vh;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 2vh;
-    background-color: #850000;
-    font-size: 1.5rem;
-    color: #ffff;
+.acompanhamentos {
+    font-size: 0.9rem;
 }
 
-.card-frango{
+.conteudos {
+
+    background-color: #FFEDCE;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin: 5vh;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 2vh;
-    background-color: #850000;
-    font-size: 1.5rem;
-    color: #ffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20vh;
 }
 
-.card-morango{
+.foto{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 20vh;
+}
+
+.card {
+   
+    width: 60vh;
+    height: 30vh;
+    margin: 1rem;
+
+    border-radius: 8vh;
+    background-color: #850000;
+    
+    box-shadow: 0 0 1vh #850000;
+    color: #ffffff;
+    font-size: 0.95rem;
+    user-select: none;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.card h3, .card h2 {
+    border-radius: 5vh;
+    text-align: center;
+    user-select: none;
+}
+
+.card h2 {
+    
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 5vh;
-    width: 30vh;
-    height: 30vh;
-    border-radius: 2vh;
-    background-color: #850000;
-    font-size: 1.5rem;
-    color: #ffff;
+}
+
+
+.doces{
+    background-color: #FFEDCE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nome {
+    font-size: 1.4vh;
+}
+
+.prazo {
+    font-size: 0.9vh;
+}
+
+.descricao{
+    font-size: 0.9vh;
+} 
+
+.promocao {
+    background-color: #FFEDCE;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.card-promo {
+   
+    width: 50vh;
+    height: 12vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8vh;
+    background: #850000;
+    
+    box-shadow: 0 0 5px #850000;
+    color: #ffffff;
+    font-size: 0.95rem;
+    user-select: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card-promo h3, .card h2 {
+    border-radius: 5px;
+    padding: 5px;
+ 
+    margin-bottom: 0.625rem;
+    text-align: center;
+    user-select: none;
+}
+
+.card-promo h2 {
+    font-size: 1.1rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-pizza1{
