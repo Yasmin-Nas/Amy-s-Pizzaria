@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Front-End/css/style.css">
+    <link rel="stylesheet" href="../Front-End/css/reset.css">
+    <link rel="stylesheet" href="../Front-End/css/main.css">
+    <link rel="stylesheet" href="../Front-End/css/footer.css">
+    <link rel="stylesheet" href="../Front-End/css/mobile.css">
+    <link rel="stylesheet" href="../Front-End/css/promocoes.css">
+    <link rel="stylesheet" href="../Front-End/css/ingredientes.css">
+    <link rel="stylesheet" href="../Front-End/css/bebidas.css">
+    <link rel="stylesheet" href="../Front-End/css/favoritas.css">
+    <link rel="stylesheet" href="../Front-End/css/doces.css">
+    <script src="https://kit.fontawesome.com/ac5338e93e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" />
+    <title>AMY'S</title>
+</head>
+<body>
+    <header>
+        <div class="home">
+            <img class="pizza-header" src="../Front-End/img/Logo.png" alt="amy's-logo"></img>
+        </div>
+      <nav>
+        <ul class="pages-container">
+        <a href= "#">Home</a>
+        <a href= "#Promoções">Promoções</a>
+        <a href= "#Cardápio">Cardápio</a>  
+        <a href= "#Serviços">Serviços</a>
+        <a href = "#Contatos">Contatos</a>
+        </ul>
+        </nav>
+    </header>
+
+    <main id =" tela-principal">
+            <section class="home-container" id="home">
+                <div class="titulo-container">
+                    <h2>Amy's Pizzaria</h2>
+                    <span class="Subtitulo">Porque tudo acaba em pizza!</span>
+                    
+                </div>
+
+                <div class="button-one">
+                    <p>
+                    <a href="#Promoções"><button class="button-promocoes">Clique aqui para conferir nossas promoções</button></a>
+                </p>
+                </div>
+        
+            </section>
+
+            <div class="Promoções-container" id="Promoções">
+                <h2 class="title-promoções">Promoções</h2>
+
+                <section class="conteudos">
+                    <article class='card'>
+                        
+                        <h2 id='nome' class='nome'>Nome</h2>
+                        <h3 id='descricao' class='descricao'>descricao</h3>
+                        
+                    </article>
+                </section>
+            </div>
+            
+
+                <div class="Cardápio-container" id="Cardápio">
+                <h2 class="title-cardápio">Cardápio</h2>
+
+                <section class="card-cardapio">
+                    <article class='card-2'>
+                        
+                        <h2 id='nome' class='nome'>Nome</h2>
+                        <h3 id='descricao' class='descricao'>descricao</h3>
+                        
+                    </article>
+                </section>
+            </div>
+            
+
+            <section class="Serviços-container" id="Serviços">
+                <div>
+                <h2 class="title-serviços">Confira nossas opções de delivery</h2>
+            </div>
+                <div class="servicos-container">
+                    <img src="../Front-End/img/motoboy.png" alt="motoboy"></img>
+                    <img src="../Front-End/img/ifood.png" alt="ifood"></img>
+                    <img class="whatsaap" src="../Front-End/img/Whats.png" alt="Whatsapp"></img>
+                </div>
+            </div>
+            </section>
+
+           <section class="Contatos-container" id="Contatos">
+               <div>
+                <h2 class="title-contatos">Fale conosco</h2>
+            </div>
+                <div class="info-container">
+                <form>
+                    <fieldset>
+                        <div class="Nome contact-container">
+                            <label for >Nome</label>
+                            <input type="text" nome="nome" id="nome" required>
+                        </div>
+
+                        <div class="call-container">
+                        <div class="Telefone">
+                            <label for>Telefone</label>
+                            <input type="tel" nome="telefone" id="telefone" required>
+                        </div>
+                            <div class="Celular"> 
+                            <label for>Celular</label>
+                            <input type="tel" nome="celular" id="celular">
+                            </div>
+                        </div>
+
+                        <div class="Email contact-container">
+                            <label for >Email</label>
+                            <input type="email" nome="email" id="email" required>
+                        </div>
+
+                        <div class="Sugestões contact-container">
+                            <label>Sugestões</label>
+                            <input type="text" nome="sugestões" id="sugestões">
+                        </div>
+
+                        <div class="Mensagem contact-container">
+                            <label>Mensagem</label>
+                            <input type="text" nome="mensagem" id="mensagem">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+                    <div class="button-two">
+                        <a href=''><button class="button-info">Enviar</button></a>
+                    </div>
+            </section>
+    </main>
+
+    <script src="../Front-End/js/app.js"></script>
+    <script src="../Front-End/js/promocoes.js" ></script>
+    <script src="../Front-End/js/bebidas.js" ></script>
+    <script src="../Front-End/js/favoritas.js" ></script>
+    <script src="../Front-End/js/doces.js" ></script>
+    <script src="../Front-End/js/ingredientes.js" ></script>
+    <footer>
+        <div class="footer">
+        <div class="logo-footer">
+            <img src="../Front-End/img/Logo.png" alt="amy's-logo"></img>
+        </div>
+        <div class="horarios-container">
+        <span class="horarios">De terça a domingo
+            das 18h a 00h;</span>
+            <div class="button-tree">
+            <a href='#'><button class="button-footer">Peça já o seu!</button></a>
+        </div>
+        </div>
+        <div class="social-container">
+            <span class="social_text">Redes Sociais:</span>
+            <div class="social_itens">
+                <a href="https://www.instagram.com/" class="social_item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://pt-br.facebook.com/" class="social_item">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.whatsapp.com/?lang=pt_br" class="social-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
