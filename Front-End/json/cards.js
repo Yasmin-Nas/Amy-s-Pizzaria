@@ -1,7 +1,5 @@
-{
+export default {
     "ingredientes": [
-       
-      
         {
             "id": 11,
             "nome": "Pepperoni",

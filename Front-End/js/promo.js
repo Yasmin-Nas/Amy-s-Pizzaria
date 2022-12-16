@@ -9,7 +9,7 @@ let descricao = document.querySelector('#descricao')
 let sectionConteudos = document.querySelector('.conteudos')
 
 // ENDERECO DO ARQUIVO JSON
-const url = require('../json/cards-promo.json')
+import url  from '../json/cards-promo'
 
 function pegarDados(i) {
   fetch(url)

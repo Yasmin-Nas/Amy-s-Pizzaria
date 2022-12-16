@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    height: 9vh;
+    height: 10vh;
     width: 100%;
     background-color: #850000;
     position: fixed;
@@ -169,14 +169,16 @@ input{
 }
 
 .button-save{
-    margin-top: 6vh;
+    background-color: #850000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+    padding-top: 5vh;
 }
 
 .salvar-button{
-   width: 18vh;
-   height: 5vh;
+    color: #ffff;
+    width: 20vh;
+    height: 5vh;
 }

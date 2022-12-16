@@ -13,19 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <script src="../Front-End/app.js" defer></script>
-    <script src="../Front-End/js/doces.js" defer type="js" ></script>
-    <script src="../Front-End/json/doces.json"></script>
-    <script src="../Front-End/js/favoritas.js" defer type="js" ></script>
-    <script src="../Front-End/json/favoritas.json"></script>
-    <script src="../Front-End/json/cards-promo.json" defer type="json" ></script>
-    <script src="../Front-End/js/promo.js"  defer type="js"></script>
+    <script src="../Front-End/app.js" defer type="module"></script>
     <link rel="stylesheet" href="../Front-End/css/promocoes.css">
-    <script src="../Front-End/js/doces.js"  defer type="js"></script>
-    <script src="../Front-End/json/doces.json"  defer type="json"></script>
-    <link rel="stylesheet" href="../Front-End/css/doces.css">
-    <script src="../Front-End/js/ingredientes.js"  defer type="js"></script>
-    <script src="../Front-End/json/ingredientes.json"  defer type="json"></script>
     <link rel="stylesheet" href="../Front-End/css/ingredientes.css">
 
     <title>Amy's</title>
@@ -65,24 +54,26 @@
             <div>
                 <h2 class="title-promoções">Promoções</h2>
             </div>
+            <div class="promo-content"></div>
         </section>
 
-            <section class="Cardápio-container" id="Cardápio">
-                <div>
+        <section class="Cardápio-container" id="Cardápio">
                 <h2 class="title-cardápio">Cardápio</h2>
-                <section class="conteudos">
-                    <article class='card'>
-                        
-                        <h2 id='nome' class='nome'>Nome</h2>
-                        <h3 id='descricao' class='descricao'>descricao</h3>
-                        
-                    </article>
-                </section>
-            
-            </section>
     
-            <section class="Serviços-container" id="Serviços">
-                <div>
+                    <div class="favoritas">
+                        <h2 class="subtitle">Favoritas</h2>
+                    </div>
+                    <div class="salgadas">
+                        <h2 class="subtitle">Salgadas</h2>
+                    </div>
+                    <div class="doces">
+                        <h2 class="subtitle">Doces</h2>
+                    </div>
+    
+            
+        </section>
+    
+        <section class="Serviços-container" id="Serviços">
                 <h2 class="title-serviços">Confira nossas opções de delivery</h2>
             </div>
                 <div class="servicos-container">

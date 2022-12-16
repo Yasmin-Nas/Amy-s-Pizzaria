@@ -7,6 +7,7 @@ let sectionConteudos = document.querySelector('.conteudos')
 
 
 const url = './json/favoritas.json'
+console.log(url);
 
 function pegarDados(i) {
   fetch(url)
